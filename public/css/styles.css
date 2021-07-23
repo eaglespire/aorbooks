@@ -1,0 +1,149 @@
+@font-face {
+    font-family: LookMom ;
+    src: url('/fonts/LookMom-Normal.ttf');
+}
+@font-face {
+    font-family: Adonais ;
+    src: url('/fonts/Adonais.ttf');
+}
+@font-face {
+    font-family: Aquaman;
+    src: url("/fonts/Juergen.ttf");
+}
+@font-face {
+    font-family: Rbto;
+    src: url("/fonts/RobotoCondensed-Regular.ttf");
+}
+@font-face {
+    font-family: RalewayMedium;
+    src: url("/fonts/lora-regular.ttf");
+}
+
+.navbar{
+    background-color: #121212;
+    font-family: LookMom, monospace;
+}
+.navbar-brand{
+    font-family: Adonais, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.active {
+    background-color: #2ea3f2 !important;
+    border-radius: 5px;
+}
+.custom-auth-btn{
+    background-color: #0b2e13 !important;
+}
+.custom-auth-btn:active{
+    background-color: #2ea3f2 !important;
+}
+.nav-item .nav-link{
+    margin-left: 2px;
+    transition: all 1s ease-in-out;
+}
+.nav-item .nav-link:hover{
+    background-color: #2ea3f2 !important;
+    border-radius: 5px;
+}
+
+.dropdown-menu .dropdown-item:hover{
+    background-color: #2ea3f2;
+    color: #fff;
+}
+@media (max-width: 768px){
+    .nav-item .nav-link{
+        padding-left: 5px;
+        transition: all 1s ease-in-out;
+    }
+    .nav-item{
+        margin-top: 7px;
+    }
+}
+
+.welcome-link{
+    text-decoration: none !important;
+    /*color: #046307 !important; */
+}
+.welcome .welcome-link {
+    color: #046307;
+    font-weight: bold;
+}
+.welcome-text{
+    font-family: Rbto, monospace !important;
+}
+
+/*
+FONTS CLASSES
+ */
+.rbto{
+    font-family: Rbto, monospace;
+}
+
+.hero{
+    font-family: Aquaman, monospace;
+}
+/*
+General
+ */
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #e5e4d7;
+    font-family: Rbto, monospace;
+}
+/*
+custom login page styles
+ */
+.emailSignUpBtn{
+    background-color: #046307;
+    color: #fff;
+    transition: all 1s;
+}
+.fbSignUpBtn{
+    background-color: #4267B2;
+    color: #fff;
+    transition: all 1s;
+}
+.fbSignUpBtn:hover{
+    background-color: #3B5998;
+    color: #fff;
+    transition: all 1s;
+}
+.emailSignUpBtn:hover{
+    background-color: #2ea3f2;
+    color: #fff;
+}
+#thank-you-page{
+    background: url("/images/old-books-436498_640.jpg")!important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#thank-you-page h1{
+    font-size: 44px;
+}
+#thank-you-page div p{
+    font-size: 20px;
+}
+#thank-you-page div .app{
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px;
+
+}
+
+.profile-head {
+    transform: translateY(5rem)
+}
+
+.cover {
+    //background-image: url(https://images.unsplash.com/photo-1530305408560-82d13781b33a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80);
+    background-size: cover;
+    background-color: #000;
+    background-repeat: no-repeat
+}
+
+
+
+

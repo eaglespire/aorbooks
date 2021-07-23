@@ -1,0 +1,147 @@
+
+#sitelink {
+    font-size: 35px;
+    color: #2ea3f1
+}
+
+#sitelink:hover {
+    color: #2ea3f2;
+    text-decoration: none;
+}
+
+#title {
+    color: gray;
+    position: relative;
+    top: 0px;
+    font-size: 14.1px
+}
+#txt1,
+#txt2,
+#txt3,
+#txt4,
+#txt5 {
+    color: white;
+    font-size: 20px
+}
+#detail {
+    color: #aaa7a7;
+    font-size: 16px
+}
+/*
+
+#explore {
+    width: 14%;
+    height: 280px;
+    position: relative;
+    top: -235px;
+    left: 29%
+}
+
+
+
+.link {
+    display: flex;
+    width: 90px;
+    height: 40px;
+    color: #aaa7a7;
+    background-color: transparent;
+    border-top: 2px solid white;
+    position: relative;
+    top: -10px
+}*/
+
+/*.link:hover,
+.link1:hover {
+    color: #e65100
+}*/
+.link1:hover{
+    color:#2ea3f2 ;
+}
+.link2:hover{
+    color:#2ea3f2 ;
+}
+
+/*#visit {
+    width: 14%;
+    height: 280px;
+    position: relative;
+    top: -515px;
+    left: 42%
+}
+
+.text {
+    color: #aaa7a7;
+    font-size: 14px;
+    margin-top: -10px
+}
+
+#legal {
+    width: 14%;
+    height: 280px;
+    position: relative;
+    top: -800px;
+    left: 59.5%
+}*/
+
+.link1 {
+    color: #aaa7a7;
+    background-color: transparent;
+    border-top: 2px solid white;
+    margin-top: 7px
+}
+.link2 {
+    color: #aaa7a7;
+    background-color: transparent;
+    /*border-top: 2px solid white;*/
+    margin-top: 7px
+}
+
+/*#subscribe {
+    position: relative;
+    top: -1080px;
+    left: 78%;
+    width: 14%;
+    height: 280px
+}
+
+#email {
+    color: white;
+    position: relative;
+    top: -20px
+}
+
+.btn {
+    position: relative;
+    top: -10px
+}
+
+#txt5 {
+    position: relative;
+    top: 0px
+}
+
+
+
+#txt6 {
+    color: #aaa7a7
+}*/
+
+.social {
+    position: relative;
+    top: -5px;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer
+}
+
+.fa-facebook-square:hover {
+    color: #3B579D
+}
+
+.fa-linkedin:hover {
+    color: #007BB6
+}
+
+.fa-twitter-square:hover {
+    color: #2CAAE1
+}
